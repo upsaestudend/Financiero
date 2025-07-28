@@ -1,0 +1,6 @@
+import pnadas as pd
+import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
+
+ds = pd.read_cvs("dataset_financiero_riesgo.cvs")
