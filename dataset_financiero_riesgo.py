@@ -10,12 +10,13 @@ from sklearn.metrics import classification_report, confusion_matrix
 # Mostrar o cargar los datos
 #ds = pd.read_csv("dataset_financiero_riesgo.csv")
 
+
 # Colocar un titulo principal en la página Web
 st.title("Predicción de Riesgo Financiero")
 
 # Cargar los datos en la memoria CACHE para mejorar la velocidad del acceso al 
 # conjunto de datos
-@st.cache_data 
+#@st.cache_data 
 
 # Hacemos una funcion que se llama cargar_datos. Leemos el archivo en una variable
 # y retornamos la variable al que llama a la función. En este caso la variable 
